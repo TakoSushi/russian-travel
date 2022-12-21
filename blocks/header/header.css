@@ -1,0 +1,19 @@
+.header {
+  max-width: 1184px;
+  height: 52px;
+  display: flex;
+  align-items: end;
+  margin-bottom: 31px;
+}
+
+@media (max-width: 1024px) {
+  .header {
+    margin-bottom: 48px;
+  }
+}
+
+@media (max-width: 320px) {
+  .header {
+    height: 42px;
+  }
+}

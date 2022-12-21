@@ -1,4 +1,16 @@
 .cover__link {
   color: #fff;
   text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+@media (max-width: 320px) {
+  .cover__link_text-position {
+    gap: 16px;
+  }
 }

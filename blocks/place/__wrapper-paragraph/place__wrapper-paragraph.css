@@ -1,0 +1,18 @@
+.place__wrapper-paragraph {
+  display: flex;
+  flex-direction: column;
+  gap: 26px;
+}
+
+@media (max-width: 768px) {
+  .place__wrapper-paragraph {
+    gap: 25px;
+  }
+}
+
+@media (max-width: 480px) {
+  .place__wrapper-paragraph {
+    max-width: 282px;
+    padding: 0 16px;
+  } 
+ }
